@@ -1,0 +1,23 @@
+.game {
+    display: flex;
+    height: 100vh;
+    flex-direction: horizontal;
+}
+
+.game-board {
+    flex-grow: 3;
+}
+
+.game-info {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.game-info button {
+    height: 40px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+}
